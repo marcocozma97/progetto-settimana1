@@ -17,6 +17,7 @@ main {
     max-width: 920px;
     margin: 0 auto;
     padding: 40px 20px;
+    margin-top: -108px;
 }
 
 main section {
@@ -72,6 +73,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 #site-header h1 {
@@ -194,14 +196,40 @@ h2 {
 }
 
 /* questa è la barra di quanto ho completato */
-.progress-bar {
-    width: 45%; 
+.progress-bar-1 {
+    width: 70%; 
     height: 100%;
     background-color: orange;
     border-radius: 10px 0 0 10px;
 }
 
+.progress-bar-2 {
+    width: 60%; 
+    height: 100%;
+    background-color: orange;
+    border-radius: 10px 0 0 10px;
+}
 
+.progress-bar-3 {
+    width: 55%; 
+    height: 100%;
+    background-color: orange;
+    border-radius: 10px 0 0 10px;
+}
+
+.progress-bar-4 {
+    width: 34%; 
+    height: 100%;
+    background-color: orange;
+    border-radius: 10px 0 0 10px;
+}
+
+.progress-bar-5 {
+    width: 80%; 
+    height: 100%;
+    background-color: orange;
+    border-radius: 10px 0 0 10px;
+}
 /* fine della tabella con barra miglioramento*/
 
 label {
@@ -212,7 +240,7 @@ label {
 input,
 textarea,
 select {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     width: 60%;
     background-color: rgb(255, 242, 224);
