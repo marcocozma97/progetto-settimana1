@@ -124,6 +124,11 @@ h2 {
     width: 100%;
 }
 
+.comp-subtitles {
+    font-style: italic;
+    color: #2102ce;
+}
+
 #chi-sono p:first-of-type {
     font-size: 1.2rem;
     font-style: italic;
@@ -176,10 +181,8 @@ h2 {
 #competenze-tab th,
 #competenze-tab td {
     border: none;
-    width:100%; 
+    width: 100%;
 }
-
-
 
 /* th della tabella con livello completamento  */
 #competenze-tab th {
@@ -192,46 +195,47 @@ h2 {
 .progress-container {
     width: 400px;
     height: 16px;
-    background-color:grey; 
+    background-color: grey;
     border-radius: 10px;
     overflow: hidden;
 }
 
 /* questa è la barra di quanto ho completato */
 .progress-bar-1 {
-    width: 70%; 
+    width: 70%;
     height: 100%;
     background-color: orange;
     border-radius: 10px 0 0 10px;
 }
 
 .progress-bar-2 {
-    width: 60%; 
+    width: 60%;
     height: 100%;
     background-color: orange;
     border-radius: 10px 0 0 10px;
 }
 
 .progress-bar-3 {
-    width: 55%; 
+    width: 55%;
     height: 100%;
     background-color: orange;
     border-radius: 10px 0 0 10px;
 }
 
 .progress-bar-4 {
-    width: 34%; 
+    width: 34%;
     height: 100%;
     background-color: orange;
     border-radius: 10px 0 0 10px;
 }
 
 .progress-bar-5 {
-    width: 80%; 
+    width: 80%;
     height: 100%;
     background-color: orange;
     border-radius: 10px 0 0 10px;
 }
+
 /* fine della tabella con barra miglioramento*/
 
 label {
@@ -290,5 +294,12 @@ button:hover {
     background-color: #692e00;
     color: #ffffff;
     font-size: 0.9rem;
+    text-align: center;
+    height: 120px;
+}
+
+#site-footer p {
+    line-height: 120px;
+    margin: 0;
     text-align: center;
 }
