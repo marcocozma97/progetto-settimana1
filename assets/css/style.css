@@ -236,6 +236,10 @@ h2 {
     border-radius: 10px 0 0 10px;
 }
 
+.tecnologia-studiata i {
+    color: rgb(190, 98, 0);
+}
+
 /* fine della tabella con barra miglioramento*/
 
 label {
