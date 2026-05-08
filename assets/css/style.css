@@ -166,6 +166,44 @@ h2 {
     font-size: 0.75rem;
 }
 
+/* Tabella delle competenze e miglioramento segnato dalla barra */
+/* Queste sono le regole CSS della tabella competenze con livello completamento */
+
+#competenze-tab,
+#competenze-tab th,
+#competenze-tab td {
+    border: none;
+}
+
+
+
+/* th della tabella con livello completamento  */
+#competenze-tab th {
+    background-color: #ffe9d4;
+    color: rgb(190, 98, 0);
+    text-align: left;
+}
+
+/* questa è la barra totale */
+.progress-container {
+    width: 400px;
+    height: 16px;
+    background-color:grey; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* questa è la barra di quanto ho completato */
+.progress-bar {
+    width: 45%; 
+    height: 100%;
+    background-color: orange;
+    border-radius: 10px 0 0 10px;
+}
+
+
+/* fine della tabella con barra miglioramento*/
+
 label {
     font-weight: bold;
     color: #692e00;
