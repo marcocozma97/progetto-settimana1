@@ -121,6 +121,7 @@ h2 {
 
 #competenze {
     clear: both;
+    width: 100%;
 }
 
 #chi-sono p:first-of-type {
@@ -175,6 +176,7 @@ h2 {
 #competenze-tab th,
 #competenze-tab td {
     border: none;
+    width:100%; 
 }
 
 
