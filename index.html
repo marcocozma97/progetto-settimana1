@@ -1,11 +1,152 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio Marco Cozma</title>
 </head>
+
 <body>
-    <h1>CIAO</h1>
+    <header id="site-header">
+        <h1>Marco Cozma</h1>
+        <p class="tagline"> <strong>Studente Full-Stack</strong> - Corso Epicode 2026</p>
+        <nav>
+            <ul>
+                <li><a href="#chi-sono">Chi sono</a></li>
+                <li><a href="#competenze">Competenze</a></li>
+                <li><a href="#esperienze">Esperienze</a></li>
+                <li><a href="#progetti">Progetti</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="chi-sono">
+
+            <h2>Chi sono</h2>
+            <figure class="foto-profilo">
+                <img class="avatar" src="https://placehold.co/200x200" alt="Foto Profilo">
+            </figure>
+
+            <p>Mi chiamo Marco Cozma e mi sto dedicando allo studio della programmazione. Lo studio dello sviluppo web
+                con <strong>Epicode</strong> mi permettterà ogni giorno di aggiungere elementi a questa pagina. Mi piace
+                lavorare in gruppo, informarmi su diversi siti delle cose che non comprendo e avvicinarmi sempre di più
+                alla figura lavorativa che sogno. </p>
+            <P>Vivo a Roma e sono Laureato in <em>Scritture e produzioni del cinema e nuovi media</em>, oltre ad aver
+                avuto una
+                formazione
+                come <em>Social Media Manager</em>. Insomma, la figura dello sviluppatore mi affascina in quanto avrò la
+                possibilità di comprendere i meccanismi che si nascondono dietro all'utilizzo delle app e dei siti web,
+                che fanno ormai parte delle mie giornate.</P>
+        </section>
+        <section id="competenze">
+            <h2>Competenze</h2>
+            <p>Qui di seguito le competenze che acquisirò durante le prime settimane del corso:</p>
+            <ul class="skill-list">
+                <li>HTML - Struttura delle pagine</li>
+                <li>CSS - Stile e impaginazione</li>
+                <li>Git e GitHub - Versionamento del codice</li>
+                <li>Visual Studio Code - Editor di lavoro</li>
+            </ul>
+        </section>
+        <section id="esperienze">
+            <h2>Esperienze</h2>
+            <p>Le esperienze formative che mi hanno portato a intraprendere questo percorso:</p>
+            <table>
+                <caption>
+                    <h3>Esperienze di Marco Cozma</h3>
+                </caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Anno</th>
+                        <th scope="col">Ruolo</th>
+                        <th scope="col">Azienda/Scuola</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2021-2024</td>
+                        <td>Laureato in Scritture e produzioni dei nuovi media</td>
+                        <td>Università degli Studi di Roma "La Sapienza"</td>
+                    </tr>
+                    <tr>
+                        <td>2024-2025</td>
+                        <td>idCert Social Media Manager</td>
+                        <td>Kirweb Academy</td>
+                    </tr>
+                    <tr>
+                        <td>2026-Presente</td>
+                        <td>Studente Full-Stack</td>
+                        <td>Epicode</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="progetti">
+            <h2>Progetti</h2>
+            <p>I lavori che realizzerò durante il corso.</p>
+            <article class="project">
+                <h3>Pagina ricetta</h3>
+                <p>Una pagina web con titolo, ingredienti e istruzioni per preparare una ricetta. Esercizio di markup
+                    semantico applicato a un contenuto reale.</p>
+                <a href="javascript:void(0);" target="_blank">Vedi su Github</a>
+            </article>
+            <article class="project">
+                <h3>Card di presentazione</h3>
+                <p>Un biglietto digitale con nome, ruolo e link ai social. Esercizio di sintesi sulla struttura HTML</p>
+                <a href="javascript:void(0);" target="_blank">Vedi su Github</a>
+            </article>
+        </section>
+        <section id="contatti">
+
+            <h2>Contattami</h2>
+
+            <p>Compila il form per conttattarmi. Riceverai una risposta entro 24 ore.</p>
+            <p>
+            <h6>Nota: I campi contrassegnati con un asterisco (*) sono obbligatori.</h6>
+            </p>
+
+            <form action="grazie.html" method="get">
+                <label for="nome">Nome *</label>
+                <br>
+                <input type="text" id="nome" name="nome" placeholder="Il tuo nome e cognome" required>
+                <br><br>
+                <label for="email">Email *</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="nome@esempio.com" required>
+                <br><br>
+                <label for="select">Motivo del contatto *</label>
+                <br>
+                <select id="select" name="select" required>
+                    <option value=""></option>
+                    <option value="informazioni">Richiesta di informazioni</option>
+                    <option value="lavoro"> Opportunità di lavoro</option>
+                    <option value="altro">Altro</option>
+                </select>
+                <br><br>
+                <label for="date">Data preferita per il contatto *</label>
+                <br>
+                <input type="date" id="date" name="date" required>
+                <br><br>
+                <label for="textarea">Messaggio *</label>
+                <br>
+                <textarea id="textarea" name="messaggio" placeholder="Il tuo messaggio" rows="5" required></textarea>
+                <br><br>
+                <input type="checkbox" id="consenso" id="checkbox" name="checkbox" required>
+                <label for="checkbox"> Accetto i termini. *</label>
+                <br><br>
+                <button type="submit">Invia</button>
+                <br><br>
+            </form>
+
+        </section>
+
+    </main>
+    <footer id="site-footer">
+        <p>&copy; 2026 Marco Cozma.</p>
+    </footer>
 </body>
+
 </html>
